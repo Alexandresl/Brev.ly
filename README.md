@@ -7,4 +7,4 @@ Desafio da Pós Graduação da Faculdade de Tecnologia Rocketseat. Aplicação F
 ## Projeto
 
 - [Back-end](server/README.md)
-- [Front-end](client/README.md)
+- [Front-end](web/README.md)
