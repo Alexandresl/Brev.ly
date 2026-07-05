@@ -1,1 +1,70 @@
 # Brev.ly — web
+
+![Ilustração Projeto](assets/1770308611109.png)
+
+## Requisitos funcionais do front-end
+
+- Deve ser possível criar um link
+  - Não deve ser possível criar um link com encurtamento mal formatado
+  - Não deve ser possível criar um link com encurtamento já existente
+- Deve ser possível deletar um link
+- Deve ser possível obter a URL original por meio do encurtamento
+- Deve ser possível listar todas as URL’s cadastradas
+- Deve ser possível incrementar a quantidade de acessos de um link
+- Deve ser possível baixar um CSV com o relatório dos links criados
+
+Além disso, também temos algumas regras importantes específicas para o front-end:
+
+- É obrigatória a criação de uma aplicação React no formato SPA utilizando o Vite como bundler;
+- Siga o mais fielmente possível o layout do Figma;
+- Trabalhe com elementos que tragam uma boa experiência ao usuário (empty state, ícones de carregamento, bloqueio de ações a depender do estado da aplicação);
+- Foco na responsividade: essa aplicação deve ter um bom uso tanto em desktops quanto em celulares.
+
+## Instalação
+
+### Pré-requisitos:
+
+- Node.js v24.12 ou superior
+- pnpm
+
+### Comandos:
+
+#### Acessar pasta web
+
+```bash
+cd web
+```
+
+#### Instalar dependências
+
+```bash
+pnpm install
+```
+
+#### Rodar a aplicação
+
+```bash
+pnpm run dev
+```
+
+#### Configurar variáveis de ambiente
+
+**Criar cópias do arquivo .env.example para .env e .env.test**
+
+```bash
+# Sistemas UNIX
+cat .env.example | tee .env .env.test > /dev/null
+```
+
+```powershell
+# Windows
+Get-Content .env.example | Set-Content .env, .env.test
+```
+
+## Endpoints server
+
+[http://localhost:5173/](http://localhost:5173/)
+
+----------
+
+[<- Voltar](../README.md)

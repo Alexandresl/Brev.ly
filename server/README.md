@@ -21,6 +21,7 @@
 
 ### Pré-requisitos:
 
+- git
 - Node.js v24.12 ou superior
 - pnpm
 - Docker
@@ -95,4 +96,4 @@ pnpm run dev
 
 ----------
 
-[<- Voltar](README.md)
+[<- Voltar](../README.md)
